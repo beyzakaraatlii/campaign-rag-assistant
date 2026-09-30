@@ -1,0 +1,27 @@
+# Local documents and derived data must not be shared accidentally.
+data/*
+!data/documents/
+data/documents/*
+!data/documents/.gitkeep
+.cache/
+.local-backup/
+.test-artifacts/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.log
+*.db
+*.db-*
+*.sqlite*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
